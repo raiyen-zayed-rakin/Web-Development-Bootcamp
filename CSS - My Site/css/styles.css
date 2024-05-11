@@ -4,15 +4,22 @@ body {
   font-family: 'Merriweather', serif;
 }
 
+
 h1 {
-  margin-top: 0;
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
   font-family: "Sacramento", cursive;
-  font-size: 60px;
+  line-height: 2rem;
 }
 h2 {
+  color: #66BFBF;
   font-family: "Montserrat", sans-serif;
+  font-size : 2.5rem;
+  font-weight: normal;
 }
 h3 {
+  color: #11999E;
   font-family: "Montserrat", sans-serif;
 }
 .top-container {
@@ -22,14 +29,13 @@ h3 {
 }
 
 .middle-container {
-  background-color: red;
+
+}
+.profile-image{
   height: 200px;
-  width: 200px;
 }
 .bottom-container {
-  background-color: blue;
-  height: 200px;
-  width: 200px;
+
 }
 .top-cloud {
   position: absolute;
@@ -40,4 +46,7 @@ h3 {
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+a {
+  color: #11999E;
 }
