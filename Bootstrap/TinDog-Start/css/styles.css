@@ -132,6 +132,34 @@ p {
   padding: 3% 2%;
 }
 
+/* CTA section */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  padding: 7% 15%;
+}
+
+.cta-heading {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer section */
+
+#footer {
+  text-align: center;
+  background-color: white;
+  padding: 7% 15%; 
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+
 @media (max-width: 1028px) {
   #title {
     text-align: center;
@@ -143,21 +171,3 @@ p {
   }
 }
 
-/* Footer section */
-
-#cta {
-  background-color: #ff4c68;
-  text-align: center;
-  color: white;
-  padding: 10% 15%;
-}
-
-#footer {
-  text-align: center;
-  background-color: white;
-  padding-top: 7%;
-}
-
-.log {
-  margin: auto 10px auto 10px;
-}
