@@ -26,6 +26,7 @@ h3 {
 
 p {
   color: #8f8f8f;
+  padding-top: 10px;
 }
 
 .container-fluid {
@@ -129,4 +130,34 @@ p {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    width: 60%;
+    transform: rotate(0deg);
+  }
+}
+
+/* Footer section */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  padding: 10% 15%;
+}
+
+#footer {
+  text-align: center;
+  background-color: white;
+  padding-top: 7%;
+}
+
+.log {
+  margin: auto 10px auto 10px;
 }
