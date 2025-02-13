@@ -1,4 +1,3 @@
-import { random } from 'node_modules\superheroes';
+const fs = require("fs");
 
-
-console.log(random()) //random testing
+fs.copyFileSync('file1.txt','file2.txt');
